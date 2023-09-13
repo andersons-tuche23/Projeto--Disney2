@@ -1,0 +1,18 @@
+.backInput input{
+    margin-left: 176px;
+    margin-top: 10px;
+    height: 41px;
+    width: 354px;
+    border-radius: 5px;
+    border-color: white;
+    border: none;
+  }
+  
+  .backInput input::placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 65px;
+    height: 17px;
+    font-weight: 400;
+  }

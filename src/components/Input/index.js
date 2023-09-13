@@ -1,5 +1,6 @@
 import React from 'react';
-import Styles from '@/styles/Home.module.scss'
+import Styles from './index.module.scss'
+
 function InputComponent() {
   return (
     <div className={Styles.backInput}>

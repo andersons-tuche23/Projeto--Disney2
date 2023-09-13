@@ -1,0 +1,27 @@
+.back_simba {
+    display: flex;
+    flex-direction: column;
+    background-image: url('/back.simba.png');
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo_frp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_frp img{
+    height: 186px;
+    width: 276px;
+    margin-top: 20px;
+    margin-left: 73px;
+}
+
+.input_simba{
+    margin-top: 94px;
+    
+}
