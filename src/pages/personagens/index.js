@@ -2,6 +2,9 @@ import React from 'react';
 import Styles from './index.module.scss';
 import InputComponent from '@/components/Input';
 import { useState } from 'react';
+import Avatar from '@/components/Avatar';
+import Modal from '@/components/Modal';
+
 
 function personagens() {
 
@@ -26,6 +29,13 @@ function personagens() {
                     <InputComponent />
                 </div>
             </div>
+
+            <div className={Styles.modal_container}>
+                <Avatar onClick={openModal} />
+            </div>
+
+            <Modal isOpen={isModalOpen} onClose={closeModal}/>
+                
         </div>
 
 
