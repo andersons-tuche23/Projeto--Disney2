@@ -30,13 +30,20 @@ const Modal = ({ isOpen, onClose, children }) => {
 
 
   return (
-    <div className={Styles.modal} ref={modalRef}>
-      <img src='/card.png' alt="Imagem" />
-      {children}
-      <button className={Styles.closeButton} onClick={onClose}>
-        x
-      </button>
+    <div className={Styles.modalOverlay}>
+      <div className={Styles.modal} ref={modalRef}>
+        <div className={Styles.imagem_card}>
+          <img src='/card.png' alt="Imagem_card" />
+        </div>
+        <div className={Styles.modalContent}>
+          {children}
+          <button className={Styles.closeButton} onClick={onClose}>
+            x
+          </button>
+        </div>
+      </div>
     </div>
+    
 
 
 
